@@ -1,0 +1,20 @@
+# Vivado temporary files
+*.jou
+*.log
+*.pb
+*.str
+*.backup
+.Xil/
+hd_visual/
+
+# Project-specific junk
+/impl/*.cache/
+/impl/*.hw/
+/impl/*.ip_user_files/
+/impl/*.runs/
+/impl/*.sim/
+/impl/*.gen/
+
+# Desktop/OS junk
+Thumbs.db
+.DS_Store
