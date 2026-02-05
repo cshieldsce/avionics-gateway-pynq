@@ -1,15 +1,15 @@
 module can_filter (
-    input              clk,           // Added for compatibility
-    input              rst_n,         // Added for compatibility (active low)
+    input  logic         clk,           // Added for compatibility
+    input  logic         rst_n,         // Added for compatibility (active low)
     
-    input      [10:0]  id_in,
-    input              id_valid_in,
+    input  logic [10:0]  id_in,
+    input  logic         id_valid_in,
     
-    input      [10:0]  accept_code,
-    input      [10:0]  accept_mask,
+    input  logic [10:0]  accept_code,
+    input  logic [10:0]  accept_mask,
     
-    output reg         id_valid_out,
-    output reg [10:0]  id_out
+    output logic         id_valid_out,
+    output logic [10:0]  id_out
 );
 
     // Synchronous process
