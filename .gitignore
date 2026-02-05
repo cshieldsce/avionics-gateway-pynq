@@ -14,9 +14,12 @@ hd_visual/
 /impl/*.runs/
 /impl/*.sim/
 /impl/*.gen/
+/impl/*.txt/
+
 
 # Ignore Vivado utility and checkpoint folders
 /impl/Gateway-SOC.srcs/utils_1/
+/impl/NA/
 
 # iVerilog compiled files
 *.vvp
